@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora$&family=Roboto+Slab&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Lora', serif;
+  font-family: 'Roboto Slab', serif;
+}
+
+.logo img{
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 75px;
+  
+  
+}
+
+.logo{
+  
+  overflow: hidden;
+}
+
+.menu-bar{
+  position: sticky;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  /* background-image: linear-gradient(45deg, #afd199 0%, #1d640b 100%); */
+  background-color: rgb(34, 33, 33);
+  height: 110vh;
+  width: 58px;
+  padding: 0 20px;
+  transition: all 0.5s;
+  overflow: hidden;
+
+}
+
+.menu-bar{
+  overflow-y: scroll;
+  top: 0;
+  bottom: 0;
+  
+
+}
+
+.menu-bar:hover{
+  width: 18.5%;
+  transition: 0.8s;
+  
+}
+
+body{
+  display: flex;
+}
+
+
+ul li{
+  padding: 18px;
+  margin: 8px 0;
+  
+
+}
+
+/* ul li:hover{
+ 
+  background-color: rgba(0, 0, 0, 0.61);
+  border-radius: 12px;
+ 
+
+} */
+
+/* ul li a{
+  
+  color: #be7f20;
+  
+ } */
+
+ul a{
+  display: flex;
+  gap: 10px;
+  
+}
+
+ul i{
+  font-size: 20px;
+}
+
+.sign-out{
+  
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color:rgb(48, 29, 14);
+  
+}
+ 
+
+
+ul{
+  height: 80vh;
+  position: relative;
+  width: 70%;
+  
+  
+}
+
+
+
+ul a span{
+  overflow: hidden;
+  
+}
+
+
+
+.content-main{
+ 
+  background-color: rgb(24, 22, 22);
+  /* background-color: #3b5f5b; */
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-repeat: no repeat;
+  background-size: cover;
+ 
+}
+
+ul li span{
+  color: aliceblue;
+  font-weight: bold;
+}
+
+ul li:hover{
+
+ 
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 12px;
+    
+  
+
+}
+
+ul li i{
+  color: rgb(245, 245, 245);
+}
+
+ul .side-bar:hover{
+  color: green;
+  
+}
+
+
+
+ul p{
+  color: green;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+/* header style for css starts here */
+
+
+.header-main{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  align-items: center;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 5px rgb(23, 31, 31);
+  
+
+}
+
+/* border title is here */
+
+.header-title h1{
+  color: #0c012f;
+  font-size: 25px;
+  
+}
+
+
+.header-icon{
+  color: rgb(65, 64, 64);
+  cursor: pointer;
+}
+
+.fa-chevron-up{
+  transform: rotate(180deg);
+}
+
+/* profile and search image */
+
+.profile-image img{
+  width: 35px;
+  border-radius: 50%;
+   
+}
+
+.profile-image span{
+  justify-content: center;
+  color: #5e5d5c;
+
+}
+
+.header-background{
+  background-image: url(./images/1700866374374.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* padding-bottom: -100%; */
+  padding-top: 500px;
+  margin-bottom: -100px;
+  height: vh;
+}
+
+.profile-info{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-box input{
+  padding: 9px 150px;
+  background-color:  rgba(49, 48, 48, 0.952);
+  outline: none;
+  border: 1px solid rgb(65, 64, 64);
+  border-radius: 10px;
+  color: rgba(245, 245, 245, 0.61);
+  font-weight: bold;
+}
+
+.search-box{
+  position: relative;
+}
+
+.search-box button{
+  padding: 10px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(49, 48, 48, 0.952);
+  color: rgb(95, 92, 92);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
+.search-box button:hover{
+ transform: scale(1.1);
+
+}
+
+
+/* my card design starts from here */
+
+.card-container{
+
+  margin-top: 20px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 20px;
+  border-radius: 10px;
+  height: 40vh;
+  padding-top: 80px;
+
+  
+}
+
+.card-container h1{
+  color: #f2f1f5;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.card-flex{
+  display: flex;
+  gap: 3rem;
+}
+
+.card-student{
+
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 23.5%;
+  height: 200px;
+  border-radius: 12px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  
+
+}
+
+
+
+.card-student:hover{
+  transform: translate(-10px);
+  box-shadow: 5px 10px 10px 5px rgb(123, 248, 248);
+}
+
+
+.card-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+.icon{
+  font-size: 25px;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.card-flex >.one{
+
+  background-image: url(./images/1700866374324.jpeg);
+ 
+}
+
+
+.card-flex >.two{
+  
+  background-image: url(./images/1700866374329.jpeg);
+ 
+}
+
+.card-flex >.three{
+  
+
+  background-image: url(./images/1700866374347.jpeg);
+  
+  
+}
+
+.card-flex >.four{
+  
+  background-image: url(./images/1700866374355.jpeg);
+  
+
+}
+
+
+.card-flex >.five{
+  
+  background-image: url(./images/1700866374341.jpeg);
+  
+
+}
+
+.card-flex >.six{
+  
+  background-image: url(./images/1700866374405.jpeg);
+  
+
+}
+
+
+.card-flex >.seven{
+  
+  background-image: url(./images/1700866374380.jpeg);
+ 
+}
+
+.card-flex >.eight{
+  
+
+  background-image: url(./images/1700866374412.jpeg);
+  
+  
+}
+
+.card-flex >.nine{
+  
+  background-image: url(./images/1700866374435.jpeg);
+  
+
+}
+
+
+.card-flex >.ten{
+  
+  background-image: url(./images/1700866374361.jpeg);
+  
+
+}
+
+.card-flex >.eleven{
+  
+  background-image: url(./images/1700866374396.jpeg);
+  
+
+}
+
+.card-flex >.twelve{
+  
+  background-image: url(./images/1700866374429.jpeg);
+  
+
+}
+
+.title{
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: -110px;
+
+}
+
+p{
+  color: whitesmoke;
+  font-size: 14px;
+}
+
+
+
+
+.light-purple{
+  background-color: purple;
+  color: #f8ec44;
+  
+}
+
+.dark-blue{
+ background-color: blue;
+ color: rgb(84, 245, 245);
+}
+
+.orange{
+  background-color: rgb(216, 37, 5);
+  /* color: #58faa9; */
+  color: #f7bef4;
+}
+
+.white{
+  background-color: rgb(84, 245, 245);
+  color: blue;
+}
+
+
+
+
+
